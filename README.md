@@ -14,7 +14,7 @@ Swift + SwiftUI + SceneKit, Apple frameworks only, no third-party dependencies.
 
 > Code comments and test names are written in Traditional Chinese.
 
-> 📦 **This repository is a snapshot shared as-is. It is archived and no longer maintained.** Issues and pull requests will not be answered — feel free to fork it.
+> 📦 **This repository is a snapshot shared as-is and is not actively maintained.** Issues and pull requests may go unanswered — feel free to fork it.
 
 ---
 
