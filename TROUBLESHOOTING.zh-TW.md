@@ -147,3 +147,40 @@ Mac 就是找不到手錶 —— 手錶自己顯示已連線，但 Mac 那一側
 ## Q6. Xcode 按 ▶︎ 卡在啟動轉圈
 
 是除錯器的問題，不是 app。按 ■ 停止，直接在模擬器或手錶上點 app 圖示開啟。
+
+## Q7. app 裝得上、也能用，幾個小時後卻從手錶上消失
+
+**現象**
+
+- 用 Mac 直接裝到手錶（`xcrun devicectl device install app`），當下能開、能擲。
+- 幾個小時後手錶上的 app 不見了。沒有錯誤訊息，也沒有「已過期」的提示。
+- 不是免費 Apple ID 的七天期限：那個的症狀是打不開，不是整個消失。
+
+**原因**（推論，沒有記錄可以佐證）
+
+watch target 宣告了伴隨的 iOS app（`WKCompanionAppBundleIdentifier`），卻**沒有標成可以獨立執行**。
+系統因此把它當成依附 iPhone app 的手錶 app。從 Mac 直接安裝只會把 app 放上手錶，iPhone 上並沒有伴隨 app。
+之後 iPhone 的藍牙開回來、兩台裝置重新同步，手錶上那份依附型的 app 在手機上找不到對應的 app，就被移除了。
+
+修正之前兩邊都查過：手錶的 app 清單是空的，iPhone 上也沒有伴隨 app。
+
+**解法**
+
+把 watch target 標成可獨立執行，Debug 與 Release 兩個組態都要加。Xcode 的
+「Watch App with New Companion iOS App」範本**不會**幫你加：
+
+```
+INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+```
+
+這個 repo 已經加好了。要確認它有進到建置出來的 app 裡：
+
+```bash
+plutil -p ~/Library/Developer/Xcode/DerivedData/RiskDice-*/Build/Products/Debug-watchos/RiskDice\ Watch\ App.app/Info.plist | grep -i -E "Independent|Companion"
+```
+
+應該同時看到 `WKRunsIndependentlyOfCompanionApp => true` 與 `WKCompanionAppBundleIdentifier`。
+
+> 不確定：加上這個設定之後，藍牙開回來幾分鐘 app 還在。**幾個小時後**還在不在，寫這一段的時候還沒確認 ——
+> 而原本的消失是隔了幾個小時才發現的。
+
