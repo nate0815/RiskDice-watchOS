@@ -156,3 +156,44 @@ on a real watch. On the simulator, **tap** to throw; it behaves the same as a fl
 ## Q6. Pressing ▶︎ in Xcode hangs on the launch spinner
 
 A debugger issue, not the app. Press ■ and open the app from its icon on the simulator or the watch.
+
+## Q7. The app installed and ran fine, then vanished from the watch a few hours later
+
+**Symptoms**
+
+- You installed straight from the Mac (`xcrun devicectl device install app`). It launched and worked.
+- A few hours later the app is simply gone from the watch. No error, no "expired" message.
+- It is not the 7-day limit of a free Apple ID: that makes the app refuse to open, it does not remove it.
+
+**Cause** (inferred — there was no log to confirm it)
+
+The watch target declared a companion iOS app (`WKCompanionAppBundleIdentifier`) but was **not marked
+as able to run on its own**. The system then treats it as a watch app that depends on its iPhone app.
+Installing directly from the Mac puts the app on the watch only — the companion app is not on the
+iPhone. Once the iPhone's Bluetooth comes back on and the two devices sync, the dependent watch app
+has no counterpart on the phone and gets removed.
+
+Before the fix, both sides were checked: the watch's app list was empty, and the companion app was
+not on the iPhone either.
+
+**Fix**
+
+Mark the watch target as independent, in both the Debug and Release build settings. Xcode's
+"Watch App with New Companion iOS App" template does **not** add this for you:
+
+```
+INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+```
+
+This repository already has it. To check that it made it into the built app:
+
+```bash
+plutil -p ~/Library/Developer/Xcode/DerivedData/RiskDice-*/Build/Products/Debug-watchos/RiskDice\ Watch\ App.app/Info.plist | grep -i -E "Independent|Companion"
+```
+
+You should see both `WKRunsIndependentlyOfCompanionApp => true` and `WKCompanionAppBundleIdentifier`.
+
+> Not sure: with the setting in place the app was still on the watch a few minutes after Bluetooth was
+> turned back on. Whether it is still there **several hours** later had not been confirmed when this
+> was written — and the original disappearance took a few hours to show up.
+
