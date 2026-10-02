@@ -1,0 +1,11 @@
+# Xcode／macOS：個人層狀態與本機產物。
+# xcshareddata/（共用 scheme）要進版控，只排 xcuserdata/。
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Build 產出物。
+build/
+*.app/
+*.ipa

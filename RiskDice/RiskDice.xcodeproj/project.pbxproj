@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF23333D306EC7EC00818827 /* RiskDice Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AF23333C306EC7EC00818827 /* RiskDice Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF233329306EC7EC00818827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF233313306EC7EB00818827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23331A306EC7EC00818827;
+			remoteInfo = RiskDice;
+		};
+		AF233333306EC7EC00818827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF233313306EC7EB00818827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23331A306EC7EC00818827;
+			remoteInfo = RiskDice;
+		};
+		AF23333E306EC7EC00818827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF233313306EC7EB00818827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23333B306EC7EC00818827;
+			remoteInfo = "RiskDice Watch App";
+		};
+		AF23334C306EC7ED00818827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF233313306EC7EB00818827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23333B306EC7EC00818827;
+			remoteInfo = "RiskDice Watch App";
+		};
+		AF233356306EC7ED00818827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF233313306EC7EB00818827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF23333B306EC7EC00818827;
+			remoteInfo = "RiskDice Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF233360306EC7ED00818827 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				AF23333D306EC7EC00818827 /* RiskDice Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF23331B306EC7EC00818827 /* RiskDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF233328306EC7EC00818827 /* RiskDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF233332306EC7EC00818827 /* RiskDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23333C306EC7EC00818827 /* RiskDice Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RiskDice Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23334B306EC7ED00818827 /* RiskDice Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RiskDice Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF233355306EC7ED00818827 /* RiskDice Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RiskDice Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF23331D306EC7EC00818827 /* RiskDice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RiskDice;
+			sourceTree = "<group>";
+		};
+		AF23332B306EC7EC00818827 /* RiskDiceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RiskDiceTests;
+			sourceTree = "<group>";
+		};
+		AF233335306EC7EC00818827 /* RiskDiceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RiskDiceUITests;
+			sourceTree = "<group>";
+		};
+		AF233340306EC7EC00818827 /* RiskDice Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RiskDice Watch App";
+			sourceTree = "<group>";
+		};
+		AF23334E306EC7ED00818827 /* RiskDice Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RiskDice Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AF233358306EC7ED00818827 /* RiskDice Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RiskDice Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF233318306EC7EC00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF233325306EC7EC00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF23332F306EC7EC00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF233339306EC7EC00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF233348306EC7ED00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF233352306EC7ED00818827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF233312306EC7EB00818827 = {
+			isa = PBXGroup;
+			children = (
+				AF23331D306EC7EC00818827 /* RiskDice */,
+				AF23332B306EC7EC00818827 /* RiskDiceTests */,
+				AF233335306EC7EC00818827 /* RiskDiceUITests */,
+				AF233340306EC7EC00818827 /* RiskDice Watch App */,
+				AF23334E306EC7ED00818827 /* RiskDice Watch AppTests */,
+				AF233358306EC7ED00818827 /* RiskDice Watch AppUITests */,
+				AF23331C306EC7EC00818827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF23331C306EC7EC00818827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF23331B306EC7EC00818827 /* RiskDice.app */,
+				AF233328306EC7EC00818827 /* RiskDiceTests.xctest */,
+				AF233332306EC7EC00818827 /* RiskDiceUITests.xctest */,
+				AF23333C306EC7EC00818827 /* RiskDice Watch App.app */,
+				AF23334B306EC7ED00818827 /* RiskDice Watch AppTests.xctest */,
+				AF233355306EC7ED00818827 /* RiskDice Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF23331A306EC7EC00818827 /* RiskDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF233361306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice" */;
+			buildPhases = (
+				AF233317306EC7EC00818827 /* Sources */,
+				AF233318306EC7EC00818827 /* Frameworks */,
+				AF233319306EC7EC00818827 /* Resources */,
+				AF233360306EC7ED00818827 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23333F306EC7EC00818827 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF23331D306EC7EC00818827 /* RiskDice */,
+			);
+			name = RiskDice;
+			productName = RiskDice;
+			productReference = AF23331B306EC7EC00818827 /* RiskDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF233327306EC7EC00818827 /* RiskDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF233364306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDiceTests" */;
+			buildPhases = (
+				AF233324306EC7EC00818827 /* Sources */,
+				AF233325306EC7EC00818827 /* Frameworks */,
+				AF233326306EC7EC00818827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23332A306EC7EC00818827 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF23332B306EC7EC00818827 /* RiskDiceTests */,
+			);
+			name = RiskDiceTests;
+			productName = RiskDiceTests;
+			productReference = AF233328306EC7EC00818827 /* RiskDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF233331306EC7EC00818827 /* RiskDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF233367306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDiceUITests" */;
+			buildPhases = (
+				AF23332E306EC7EC00818827 /* Sources */,
+				AF23332F306EC7EC00818827 /* Frameworks */,
+				AF233330306EC7EC00818827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF233334306EC7EC00818827 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF233335306EC7EC00818827 /* RiskDiceUITests */,
+			);
+			name = RiskDiceUITests;
+			productName = RiskDiceUITests;
+			productReference = AF233332306EC7EC00818827 /* RiskDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AF23333B306EC7EC00818827 /* RiskDice Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23335D306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch App" */;
+			buildPhases = (
+				AF233338306EC7EC00818827 /* Sources */,
+				AF233339306EC7EC00818827 /* Frameworks */,
+				AF23333A306EC7EC00818827 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF233340306EC7EC00818827 /* RiskDice Watch App */,
+			);
+			name = "RiskDice Watch App";
+			productName = "RiskDice Watch App";
+			productReference = AF23333C306EC7EC00818827 /* RiskDice Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF23334A306EC7ED00818827 /* RiskDice Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23336A306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch AppTests" */;
+			buildPhases = (
+				AF233347306EC7ED00818827 /* Sources */,
+				AF233348306EC7ED00818827 /* Frameworks */,
+				AF233349306EC7ED00818827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF23334D306EC7ED00818827 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF23334E306EC7ED00818827 /* RiskDice Watch AppTests */,
+			);
+			name = "RiskDice Watch AppTests";
+			productName = "RiskDice Watch AppTests";
+			productReference = AF23334B306EC7ED00818827 /* RiskDice Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF233354306EC7ED00818827 /* RiskDice Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23336D306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch AppUITests" */;
+			buildPhases = (
+				AF233351306EC7ED00818827 /* Sources */,
+				AF233352306EC7ED00818827 /* Frameworks */,
+				AF233353306EC7ED00818827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF233357306EC7ED00818827 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF233358306EC7ED00818827 /* RiskDice Watch AppUITests */,
+			);
+			name = "RiskDice Watch AppUITests";
+			productName = "RiskDice Watch AppUITests";
+			productReference = AF233355306EC7ED00818827 /* RiskDice Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF233313306EC7EB00818827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					AF23331A306EC7EC00818827 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					AF233327306EC7EC00818827 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AF23331A306EC7EC00818827;
+					};
+					AF233331306EC7EC00818827 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AF23331A306EC7EC00818827;
+					};
+					AF23333B306EC7EC00818827 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					AF23334A306EC7ED00818827 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AF23333B306EC7EC00818827;
+					};
+					AF233354306EC7ED00818827 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AF23333B306EC7EC00818827;
+					};
+				};
+			};
+			buildConfigurationList = AF233316306EC7EB00818827 /* Build configuration list for PBXProject "RiskDice" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF233312306EC7EB00818827;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF23331C306EC7EC00818827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF23331A306EC7EC00818827 /* RiskDice */,
+				AF233327306EC7EC00818827 /* RiskDiceTests */,
+				AF233331306EC7EC00818827 /* RiskDiceUITests */,
+				AF23333B306EC7EC00818827 /* RiskDice Watch App */,
+				AF23334A306EC7ED00818827 /* RiskDice Watch AppTests */,
+				AF233354306EC7ED00818827 /* RiskDice Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF233319306EC7EC00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233326306EC7EC00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233330306EC7EC00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF23333A306EC7EC00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233349306EC7ED00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233353306EC7ED00818827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF233317306EC7EC00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233324306EC7EC00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF23332E306EC7EC00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233338306EC7EC00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233347306EC7ED00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF233351306EC7ED00818827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF23332A306EC7EC00818827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23331A306EC7EC00818827 /* RiskDice */;
+			targetProxy = AF233329306EC7EC00818827 /* PBXContainerItemProxy */;
+		};
+		AF233334306EC7EC00818827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23331A306EC7EC00818827 /* RiskDice */;
+			targetProxy = AF233333306EC7EC00818827 /* PBXContainerItemProxy */;
+		};
+		AF23333F306EC7EC00818827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23333B306EC7EC00818827 /* RiskDice Watch App */;
+			targetProxy = AF23333E306EC7EC00818827 /* PBXContainerItemProxy */;
+		};
+		AF23334D306EC7ED00818827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23333B306EC7EC00818827 /* RiskDice Watch App */;
+			targetProxy = AF23334C306EC7ED00818827 /* PBXContainerItemProxy */;
+		};
+		AF233357306EC7ED00818827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF23333B306EC7EC00818827 /* RiskDice Watch App */;
+			targetProxy = AF233356306EC7ED00818827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF23335B306EC7ED00818827 /* Debug configuration for PBXProject "RiskDice" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF23335C306EC7ED00818827 /* Release configuration for PBXProject "RiskDice" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF23335E306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskDice;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nate0815.RiskDice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		AF23335F306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskDice;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nate0815.RiskDice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		AF233362306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskDice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF233363306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RiskDice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF233365306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDiceTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskDice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiskDice";
+			};
+			name = Debug;
+		};
+		AF233366306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDiceTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskDice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiskDice";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF233368306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDiceUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiskDice;
+			};
+			name = Debug;
+		};
+		AF233369306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDiceUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nate0815.RiskDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiskDice;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF23336B306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate0815.RiskDice-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskDice Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiskDice Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		AF23336C306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate0815.RiskDice-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskDice Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiskDice Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		AF23336E306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate0815.RiskDice-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RiskDice Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		AF23336F306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate0815.RiskDice-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RiskDice Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF233316306EC7EB00818827 /* Build configuration list for PBXProject "RiskDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23335B306EC7ED00818827 /* Debug configuration for PBXProject "RiskDice" */,
+				AF23335C306EC7ED00818827 /* Release configuration for PBXProject "RiskDice" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF23335D306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23335E306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch App" */,
+				AF23335F306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF233361306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF233362306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice" */,
+				AF233363306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF233364306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF233365306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDiceTests" */,
+				AF233366306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDiceTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF233367306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF233368306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDiceUITests" */,
+				AF233369306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDiceUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF23336A306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23336B306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch AppTests" */,
+				AF23336C306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF23336D306EC7ED00818827 /* Build configuration list for PBXNativeTarget "RiskDice Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23336E306EC7ED00818827 /* Debug configuration for PBXNativeTarget "RiskDice Watch AppUITests" */,
+				AF23336F306EC7ED00818827 /* Release configuration for PBXNativeTarget "RiskDice Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF233313306EC7EB00818827 /* Project object */;
+	validationLevel = 1;
+}
